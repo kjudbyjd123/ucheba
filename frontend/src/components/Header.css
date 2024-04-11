@@ -1,0 +1,20 @@
+.Header {
+    width: 100%;
+    height: 50px;
+    background-color: #85dcdc;
+    display: flex;
+    justify-content: flex-end;
+}
+.Header li {
+    width: 140px;
+    height: 100%;
+    list-style: none;
+    line-height: 50px;
+    cursor: pointer;
+}
+.Header li:hover {
+    background-color: #5f9f9f;
+}
+.Header ul {
+    display: flex;
+}

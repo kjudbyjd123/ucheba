@@ -1,0 +1,41 @@
+.Kabinet {
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #ffffff;
+    padding-top: 30px;
+}
+
+.KabinetContent {
+    padding: 30px;
+    row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Kabinet .order {
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    border-style: none;
+    background-color: #a04000;
+    border-radius: 10px;
+    font-size: 16pt;
+}
+
+.Kabinet .order:hover {
+    background-color: #6e2c00;
+}
+
+@media (max-width: 768px) {
+    .KabinetContent {
+        min-height: calc(100vh - 160px - 50px);
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 426px) {
+    .KabinetContent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
