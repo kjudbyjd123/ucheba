@@ -17,7 +17,7 @@ import Basket from './views/Basket';
 function App() {
     const[page, setPage] = useState('Main');
     const[modalBox, setModalBox] = useState('none')
-    const [basket, setBasket] = useState([])
+    const[basket, setBasket] = useState([])
 
 
 
